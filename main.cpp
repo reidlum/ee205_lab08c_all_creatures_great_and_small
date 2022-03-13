@@ -8,7 +8,6 @@
 /// @author Reid Lum <reidlum@hawaii.edu>
 /// @date   13_Mar_2022
 ///////////////////////////////////////////////////////////////////////////////
-#include <iostream>
 #include "Animal.h"
 
 int main() {
