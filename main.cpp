@@ -9,8 +9,13 @@
 /// @date   13_Mar_2022
 ///////////////////////////////////////////////////////////////////////////////
 #include <iostream>
+#include "Animal.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Animal myFirstAnimal = Animal( "Felis catus" );
+    myFirstAnimal.setGender( MALE );
+    myFirstAnimal.setWeight( 19 ); // @todo Refactor to include Unit of Measure
+    myFirstAnimal.printInfo();
+    return 0;
     return 0;
 }
